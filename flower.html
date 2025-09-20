@@ -433,12 +433,48 @@
       transform: translateY(-3px);
       box-shadow: 0 12px 20px rgba(0, 0, 0, 0.4);
     }
+
+    /* Contenedor de título */
+    .titulo {
+      text-align: center;
+      color: #fff;
+      font-family: "Poppins", sans-serif;
+      margin: 20px 12px;
+      /* espacio desde arriba */
+    }
+
+    /* Título */
+    .titulo h1 {
+      font-size: 26px;
+      font-weight: 300;
+      line-height: 1.3;
+      margin: 0;
+    }
+
+    /* Subtítulo */
+    .titulo p {
+      font-size: 18px;
+      font-weight: 300;
+      line-height: 1.3;
+      margin-top: 8px;
+    }
+
+    /* Ajustes para pantallas pequeñas (como Redmi Note 13 en vertical) */
+    @media (max-width: 420px) {
+      .titulo h1 {
+        font-size: 20px;
+      }
+
+      .titulo p {
+        font-size: 14px;
+      }
+    }
   </style>
 </head>
 
 <body>
   <audio id="id_audio" src="/Floricienta  Flores Amarillas [Letra] (mp3cut.net).mp3"></audio>
-  <h1>Te regalo esta flor amarilla mi Amor Bonito</h1>
+  <h1>Flor Amarilla para ti mi amor</h1>
   <p>De parte de tu novio el desarrollador </p>
   <div class="sunflower">
     <div class="flower_wrapper">
